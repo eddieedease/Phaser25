@@ -1,0 +1,24 @@
+{
+  "name": "phaser-game",
+  "version": "1.0.0",
+  "description": "A simple PhaserJS game",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "babel-loader": "^8.2.3",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "file-loader": "^6.2.0",
+    "copy-webpack-plugin": "^11.0.0"
+  }
+}
